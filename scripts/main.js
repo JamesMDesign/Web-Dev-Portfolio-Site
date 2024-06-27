@@ -7,7 +7,7 @@
 
 document.getElementById('cv-button').addEventListener('click', function() {
 
-const fileURL = 'Download/jm-cv.pdf';
+const fileURL = '../Download/jm-cv.pdf';
 
 const a = document.createElement('a');
 
