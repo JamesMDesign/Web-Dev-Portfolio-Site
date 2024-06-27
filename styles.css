@@ -1,0 +1,36 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Changed to min-height for better flexibility */
+    padding: 20px; /* Added padding to center-container */
+}
+
+.content {
+    max-width: 600px; /* Optional: Set a max width for the content */
+    width: 100%; /* Ensure it takes full width up to max width */
+    padding: 20px; /* Optional: Add some padding */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); Optional: Add a shadow for better visibility */
+}
+
+h1 {
+    font-size: 48px !important;
+}
+
+.info-text {
+    font-size: 18px !important;
+    line-height: 32px !important;
+}
+
+.list-styles {
+    line-height: 32px !important;
+}
+
+.skills-used {
+    font-weight: 500;
+}
